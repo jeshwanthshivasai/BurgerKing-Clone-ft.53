@@ -1,0 +1,218 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Flame-Bold";
+}
+body {
+    background-color: rgb(245, 235, 220);
+    align-items: center;
+}
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fbe7d3;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.menu-icon {
+    font-size: 24px;
+    color: #7d4533;
+    cursor: pointer;
+}
+.logo h1 {
+    font-size: 24px;
+    color: #7d4533;
+    font-family: "Flame Bold";
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.user-icon {
+    font-size: 24px;
+    color: #7d4533;
+    cursor: pointer;
+}
+
+.view-cart {
+    display: flex;
+    align-items: center;
+    background-color: #f54d2e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    gap: 8px;
+}
+.view-cart:hover {
+    background-color: #e63c1e;
+}
+/* Main Content */
+#main-container {
+    font-family: "Flame Bold";
+    height: 450px;
+    width: 100%;
+    background-color: #f5ebdc;
+    display: flex;
+}
+#content {
+    height: 300px;
+    width: 320px;
+    position: relative;
+    left: 450px;
+    top: 110px;
+}
+#content h1 {
+    font-size: 4rem;
+    color: rgb(80, 35, 20);
+    margin-left: 20px;
+}
+#content span {
+    font-size: xx-large;
+    position: relative;
+    top: -30px;
+}
+#btn1, #btn2 {
+    border-radius: 9999px;
+    padding: 15px;
+    position: relative;
+    left: 10px;
+    text-decoration: solid;
+    cursor: pointer;
+    border: transparent;
+    font-family: "Flame Bold";
+}
+#btn1 {
+    background-color: #d62300;
+    color: #fff;
+    padding: 15px 100px;
+}
+#btn1:hover {
+    background-color: rgb(167, 27, 0);
+}
+#btn2 {
+    color: #d62300;
+    padding: 15px 90px;
+    top: 30px;
+}
+#btn2:hover {
+    background-color: rgb(242, 215, 198);
+}
+#m-img {
+    height: 400px;
+    width: 670px;
+    position: relative;
+    left: 550px;
+    top: 50px;
+}
+#m-img img {
+    height: 100%;
+    width: 100%;
+}
+/* Body Content */
+.body-content {
+    width: 40%;
+    border-radius: 8px;
+    margin-top: 25px;
+    background-color: #fff;
+}
+.body-content img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+.body-content h2 {
+    font-family: "Flame Bold";
+}
+.body-content h2, p {
+    padding: 10px;
+    color: rgb(80, 35, 20);
+}
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 5% 0 15%;
+    gap: 10px;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+/* Footer */
+#footer-container {
+    display: flex;
+    background-color: rgb(235, 226, 211);
+    padding: 0px 150px 0px 220px;
+    gap: 70px;
+    padding-bottom: 50px;
+    margin-top: 200px;
+    align-items: center;
+    justify-content: center;
+}
+.mob-img {
+    width: 450px;
+    height: 400px;
+    position: relative;
+}
+img[alt='scan-mobile'] {
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+}
+.icon {
+    width: 200px;
+    margin: 0px 20px 20px 0px;
+    cursor: pointer;
+}
+#h1-content {
+    color: rgb(80, 35, 20);
+    margin-bottom: 20px;
+    font-size: 40px;
+    margin-top: 40px;
+}
+#p-content {
+    color: rgb(80, 35, 20);
+    font-size: 15px;
+    line-height: 25px;
+}
+#footer2 {
+    background-color: rgb(80, 35, 20);
+    color: rgb(245, 235, 220);
+    padding: 25px 0px 25px 480px;
+    font-size: 12px;
+    margin-bottom: 60px;
+    position: relative;
+}
+#link {
+    text-decoration: underline;
+}
+/* Footer Navbar */
+.foot-navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f8ede3;
+}
+.nav-item {
+    text-align: center;
+}
+.nav-icon {
+    font-size: 1.5rem;
+    color: #5a352c;
+}
+.nav-item p {
+    color: #5a352c;
+    font-size: 14px;
+    font-weight: bold;
+}
